@@ -1,84 +1,108 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1956investigations,
+@article{parameshwara2023efficient,
+  title={Efficient Labelling of Affective Video Datasets via Few-Shot \& Multi-Task Contrastive Learning},
+  author={Parameshwara, Ravikiran and Radwan, Ibrahim and Asthana, Akshay and Abbasnejad, Iman and Subramanian, Ramanathan and Goecke, Roland},
+  journal={arXiv preprint arXiv:2308.02173},
+  year={2023},
+  arxiv={2308.02173},
+  abstract={Whilst deep learning techniques have achieved excellent emotion prediction, they still require large amounts
+   of labelled training data, which are (a) onerous and tedious to compile, and (b) prone to errors and biases.
+    We propose Multi-Task Contrastive Learning for Affect Representation (MT-CLAR\) for few-shot affect inference.
+     MT-CLAR combines multi-task learning with a Siamese network trained via contrastive learning to infer from a pair of
+     expressive facial images (a) the (dis)similarity between the facial expressions, and (b) the difference in valence and
+      arousal levels of the two faces. We further extend the image-based MT-CLAR framework for automated video labelling
+       where, given one or a few labelled video frames (termed support-set), MT-CLAR labels the remainder of the
+        video for valence and arousal.  Experiments are performed on the AFEW-VA dataset with multiple support-set configurations;
+         moreover, supervised learning on representations learnt via MT-CLAR are used for valence, arousal and categorical
+          emotion prediction on the AffectNet and AFEW-VA datasets. The results show that valence and arousal predictions
+           via MT-CLAR are very comparable to the state-of-the-art (SOTA), and we significantly outperform SOTA with a
+            support-set ~6\% the size of the video dataset.},
   bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+    abbr={ACM MM},
+    code={https://github.com/ravikiranrao/MTCLAR-FSL}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
+@article{narayana2023weakly,
+  title={A Weakly Supervised Approach to Emotion-change Prediction and Improved Mood Inference},
+  author={Narayana, Soujanya and Radwan, Ibrahim and Parameshwara, Ravikiran and Abbasnejad, Iman and Asthana, Akshay and Subramanian, Ramanathan and Goecke, Roland},
+  journal={arXiv preprint arXiv:2306.06979},
+  arxiv={2306.06979},
+  abstract={Whilst a majority of affective computing research focuses on inferring emotions, examining mood or understanding the mood-emotion interplay has received significantly less attention.
+   Building on prior work, we (a) deduce and incorporate emotion-change ($\Delta$) information for inferring mood, without resorting to annotated labels,
+    and (b) attempt mood prediction for long duration video clips, in alignment with the characterisation of mood.
+     We generate the emotion-change ($\Delta$) labels via metric learning from a pre-trained Siamese Network, and use these in
+     addition to mood labels for mood classification. Experiments evaluating unimodal (training only using mood labels)
+      vs multimodal (training using mood plus ($\Delta$) labels) models show that mood prediction benefits from the incorporation
+       of emotion-change information, emphasising the importance of modelling the mood-emotion interplay for effective mood inference.$},
+  year={2023},
   bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+    abbr={ACII},
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  selected={true}
+@INPROCEEDINGS{parameshwara2023examining,
+  author={Parameshwara, Ravikiran and Radwan, Ibrahim and Subramanian, Ramanathan and Goecke, Roland},
+  booktitle={2023 IEEE 17th International Conference on Automatic Face and Gesture Recognition (FG)},
+  title={Examining Subject-Dependent and Subject-Independent Human Affect Inference from Limited Video Data},
+  year={2023},
+  volume={},
+  number={},
+  pages={1-6},
+  doi={10.1109/FG57933.2023.10042798},
+  abstract={Continuous human affect estimation from video data entails modelling the dynamic emotional state from a
+   sequence of facial images. Though multiple affective video databases exist, they are limited in terms of data and
+    dynamic annotations, as assigning continuous affective labels to video data is subjective, onerous and tedious.
+     While studies have established the existence of signature facial expressions corresponding to the basic categorical
+      emotions, individual differences in emoting facial expressions nevertheless exist; factoring out these
+       idiosyncrasies is critical for effective emotion inference. This work explores continuous human affect
+        recognition using AFEW-VA, an ‘in-the-wild’ video dataset with limited data, employing subject-independent (SI)
+         and subject-dependent (SD) settings. The SI setting involves the use of training and test sets with mutually
+          exclusive subjects, while training and test samples corresponding to the same subject can occur in the SD
+           setting. A novel, dynamically-weighted loss function is employed with a Convolutional Neural Network
+            (CNN)-Long Short- Term Memory (LSTM) architecture to optimise dynamic affect prediction.
+             Superior prediction is achieved in the SD setting, as compared to the SI counterpart.},
+   bibtex_show={true},
+    abbr={IEEE FG},
+   video={https://youtu.be/E2Q62oNDaNU?si=dwA7vBB9Yyw9SNY-},
+    pdf={ravi_LFA_FG2023.pdf}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@INPROCEEDINGS{parameshwara2023examining,
+  author={Parameshwara, Ravikiran},
+  booktitle={2023 IEEE 17th International Conference on Automatic Face and Gesture Recognition (FG) Doctoral Consortium},
+  title={Determining Affect Intensity on a Continuous Scale},
+  year={2023},
+  volume={},
+  number={},
+   bibtex_show={true},
+    abbr={IEEE FG},
+   url={https://fg2023.ieee-biometrics.org/participate/doctoral-consortium},
+    pdf={ravi_DC_FG2023.pdf}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@article{parameshwara2022automated,
+    bibtex_show={true},
+    abbr={arXiv},
+  title={Automated Parkinson's Disease Detection and Affective Analysis from Emotional EEG Signals},
+  author={Parameshwara, Ravikiran and Narayana, Soujanya and Murugappan, Murugappan and Subramanian, Ramanathan and Radwan, Ibrahim and Goecke, Roland},
+  journal={arXiv preprint arXiv:2202.12936},
+  year={2022},
+  code={https://github.com/ravikiranrao/PD-EEG},
+  arxiv={2202.12936},
+  abstract={While Parkinson's disease (PD) is typically characterized by motor disorder, there is evidence of diminished
+   emotion perception in PD patients. This study examines the utility of affective Electroencephalography (EEG) signals
+    to understand emotional differences between PD vs Healthy Controls (HC), and for automated PD detection. Employing
+     traditional machine learning and deep learning methods, we explore (a) dimensional and categorical emotion
+      recognition, and (b) PD vs HC classification from emotional EEG signals. Our results reveal that PD patients
+       comprehend arousal better than valence, and amongst emotion categories, fear, disgust and surprise less accurately, and sadness most accurately.
+       Mislabeling analyses confirm confounds among opposite-valence emotions with PD data. Emotional EEG responses also
+        achieve near-perfect PD vs HC recognition. Cumulatively, our study demonstrates that (a) examining implicit
+         responses alone enables (i) discovery of valence-related impairments in PD patients, and (ii) differentiation of
+          PD from HC, and (b) emotional EEG analysis is an ecologically-valid, effective, facile and sustainable tool
+           for PD diagnosis vis-á-vis self reports, expert assessments and resting-state analysis.}
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
-}
+
+
