@@ -105,6 +105,7 @@ facebook_id: # your facebook id
 youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 discord_id: # your discord id (18-digit unique numerical identifier)
 zotero_username: # your zotero username
+cv_pdf: ravi_cv.pdf
 
 contact_note: >
   You can contact me via e-mail or other social media platforms.
@@ -177,6 +178,9 @@ collections:
     output: true
     permalink: /projects/:path/
 
+news_scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+news_limit: 5 # leave blank to include all the news in the `_news` folder
+
 announcements:
   enabled: true
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
@@ -237,7 +241,7 @@ plugins:
 # Sitemap settings
 defaults:
   - scope:
-      path: "assets"
+      path: "assets/**/*.*"
     values:
       sitemap: false
 
