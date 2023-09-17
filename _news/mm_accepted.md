@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Paper accepted at ACM Multimedia 2023.
+title: Paper accepted at ACM Multimedia 2023. Congratulations to all the co-authors!
 date: 2023-07-26
 inline: false
 related_posts: false
