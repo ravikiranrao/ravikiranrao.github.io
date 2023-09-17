@@ -304,7 +304,7 @@ badges: # Display different badges for your publications
   dimensions_badge: true # Dimensions badge (https://badge.dimensions.ai/)
 
 # Filter out certain bibtex entry keywords used internally from the bib output
-filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, selected, supp, blog, code, poster, slides, website, preview, altmetric]
+filtered_bibtex_keywords: [abbr, abstract, arxiv, bibtex_show, html, pdf, selected, supp, blog, code, poster, slides, website, preview, altmetric, video]
 
 # Maximum number of authors to be shown for each publication (more authors are visible on click)
 max_author_limit:   # leave blank to always show all authors
@@ -411,8 +411,8 @@ medium_zoom:
 # -----------------------------------------------------------------------------
 
 jekyll_get_json:
-  - data: resume
-    json: assets/json/resume.json # it can also be an url
+  - data:
+    json:  # it can also be an url
 jsonresume:
   - basics
   - work
