@@ -15,7 +15,6 @@ latest_posts: false  # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
-:construction: :construction: **SITE UNDER CONSTRUCTION** :construction: :construction:
 
 I am a Ph.D. student in the Human-Centred Technology Research Centre at University of Canberra, Australia, since February 2021.
 I am advised by [Dr. Ibrahim Radwan](https://researchprofiles.canberra.edu.au/en/persons/ibrahim-radwan), 
