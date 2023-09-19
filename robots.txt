@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://ravikiranrao.github.io/sitemap.xml
+Sitemap: https://ravikiranp.com/sitemap.xml
