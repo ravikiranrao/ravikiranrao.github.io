@@ -22,7 +22,7 @@ I am advised by [Dr. Ibrahim Radwan](https://researchprofiles.canberra.edu.au/en
 and [Dr. Ramanathan Subramanian](https://researchprofiles.canberra.edu.au/en/persons/ramanathan-subramanian). 
 My research interests lie at the intersection of computer vision, Human-Computer Interaction (HCI), and affective computing. 
 
-I develop computer vision algorithms for inferring dimensional human emotions from facial images and videos.
+As an [Affective Computing](https://en.wikipedia.org/wiki/Affective_computing) researcher, I develop computer vision algorithms for inferring dimensional human emotions from facial images and videos.
 My dissertation focuses on implementing novel algorithms for in-the-wild video data with limited number of samples.
 My previous work includes analysing emotional impairment in Parkinson Disease patients using EEG signals. I also worked
 on the explainable (X-AI) personality and multimodal behavioural cues for hireability prediction.
