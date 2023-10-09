@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Paper accepted at [IEEE Face and Gesture Recognition](https://fg2023.ieee-biometrics.org) (FG) 2023. 
+Paper accepted at [IEEE International Conference on Automatic Face and Gesture Recognition](https://fg2023.ieee-biometrics.org) (FG) 2023. 
