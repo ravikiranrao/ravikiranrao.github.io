@@ -1,29 +1,36 @@
 ---
 ---
-
-@article{parameshwara2023efficient,
-  title={Efficient Labelling of Affective Video Datasets via Few-Shot \& Multi-Task Contrastive Learning},
-  author={Parameshwara, Ravikiran and Radwan, Ibrahim and Asthana, Akshay and Abbasnejad, Iman and Subramanian, Ramanathan and Goecke, Roland},
-  journal={arXiv preprint arXiv:2308.02173},
+@inproceedings{harshit2023examining,
+  title={Examining the Influence of Personality and Multimodal Behavior on Hireability Impressions},
+  author={Malik, Harshit and Dhillon, Hersh and Parameshwara, Ravikiran and Goecke, Roland and Subramanian, Ramanathan},
   year={2023},
-  arxiv={2308.02173},
-  abstract={Whilst deep learning techniques have achieved excellent emotion prediction, they still require large amounts
-   of labelled training data, which are (a) onerous and tedious to compile, and (b) prone to errors and biases.
-    We propose Multi-Task Contrastive Learning for Affect Representation (MT-CLAR\) for few-shot affect inference.
-     MT-CLAR combines multi-task learning with a Siamese network trained via contrastive learning to infer from a pair of
-     expressive facial images (a) the (dis)similarity between the facial expressions, and (b) the difference in valence and
-      arousal levels of the two faces. We further extend the image-based MT-CLAR framework for automated video labelling
-       where, given one or a few labelled video frames (termed support-set), MT-CLAR labels the remainder of the
-        video for valence and arousal.  Experiments are performed on the AFEW-VA dataset with multiple support-set configurations;
-         moreover, supervised learning on representations learnt via MT-CLAR are used for valence, arousal and categorical
-          emotion prediction on the AffectNet and AFEW-VA datasets. The results show that valence and arousal predictions
-           via MT-CLAR are very comparable to the state-of-the-art (SOTA), and we significantly outperform SOTA with a
-            support-set ~6\% the size of the video dataset.},
+  publisher = {Association for Computing Machinery},
+      address = {New York, NY, USA},
+       url = {https://doi.org/10.1145/3627631.3627658},
+        doi = {10.1145/3627631.3627658},
+  abstract={While personality traits have been traditionally modeled as behavioral constructs, we novelly posit job hireability as a personality construct. To this end, we examine correlates among personality and hireability measures on the First Impressions Candidate Screening dataset. Modeling hireability as both a discrete and continuous variable, and the big-five OCEAN personality traits as predictors, we utilize (a) multimodal behavioral cues, and (b) personality trait estimates obtained via these cues for hireability prediction (HP). For each of the text, audio and visual modalities, HP via (b) is found to be more effective than (a). Also, superior results are achieved when hireability is modeled as a continuous rather than a categorical variable. Interestingly, eye and bodily visual cues perform comparably to facial cues for predicting personality and hireability. Explanatory analyses reveal that multimodal behaviors impact personality and hireability impressions: e.g., Conscientiousness impressions are impacted by the use of positive adjectives (verbal behavior) and eye movements (non-verbal behavior), confirming prior observations.},
   bibtex_show={true},
-    abbr={ACM MM},
+    abbr={ICVGIP '23},
+    pdf={ICVGIP_2023_Camera_Ready.pdf}
+}
+
+@inproceedings{parameshwara2023efficient,
+ author = {Parameshwara, Ravikiran and Radwan, Ibrahim and Asthana, Akshay and Abbasnejad, Iman and Subramanian, Ramanathan and Goecke, Roland},
+  title = {Efficient Labelling of Affective Video Datasets via Few-Shot \& Multi-Task Contrastive Learning},
+   year = {2023},
+    isbn = {9798400701085},
+     publisher = {Association for Computing Machinery},
+      address = {New York, NY, USA},
+       url = {https://doi.org/10.1145/3581783.3613784},
+        doi = {10.1145/3581783.3613784},
+         abstract = {Whilst deep learning techniques have achieved excellent emotion prediction, they still require large amounts of labelled training data, which are (a) onerous and tedious to compile, and (b) prone to errors and biases. We propose Multi-Task Contrastive Learning for Affect Representation (MT-CLAR) for few-shot affect inference. MT-CLAR combines multi-task learning with a Siamese network trained via contrastive learning to infer from a pair of expressive facial images (a) the (dis)similarity between the facial expressions, and (b) the difference in valence and arousal levels of the two faces. We further extend the image-based MT-CLAR framework for automated video labelling where, given one or a few labelled video frames (termed support-set), MT-CLAR labels the remainder of the video for valence and arousal. Experiments are performed on the AFEW-VA dataset with multiple support-set configurations; moreover, supervised learning on representations learnt via MT-CLAR are used for valence, arousal and categorical emotion prediction on the AffectNet and AFEW-VA datasets. The results show that valence and arousal predictions via MT-CLAR are very comparable to the state-of-the-art (SOTA), and we significantly outperform SOTA with a support-set ≈6\% the size of the video dataset.}, booktitle = {Proceedings of the 31st ACM International Conference on Multimedia}, pages = {6161–6170}, numpages = {10}, keywords = {few-shot, siamese network, emotion category, video labelling, multi-task, similarity, contrastive learning, valence, arousal},
+          location = {, Ottawa ON, Canada, },
+           series = {MM '23},
+           bibtex_show={true},
+    abbr={ACM MM '23},
     code={https://github.com/ravikiranrao/MTCLAR-FSL},
     teaser={https://youtu.be/0C8r8v0mzEE}
-}
+            }
 
 @article{narayana2023weakly,
   title={A Weakly Supervised Approach to Emotion-change Prediction and Improved Mood Inference},
@@ -39,7 +46,7 @@
        of emotion-change information, emphasising the importance of modelling the mood-emotion interplay for effective mood inference.$},
   year={2023},
   bibtex_show={true},
-    abbr={ACII},
+    abbr={ACII '23},
 }
 
 @INPROCEEDINGS{parameshwara2023examining,
@@ -64,7 +71,7 @@
             (CNN)-Long Short- Term Memory (LSTM) architecture to optimise dynamic affect prediction.
              Superior prediction is achieved in the SD setting, as compared to the SI counterpart.},
    bibtex_show={true},
-    abbr={IEEE FG},
+    abbr={IEEE FG '23},
    video={https://youtu.be/E2Q62oNDaNU?si=dwA7vBB9Yyw9SNY-},
     pdf={ravi_LFA_FG2023.pdf}
 }
@@ -77,7 +84,7 @@
   volume={},
   number={},
    bibtex_show={true},
-    abbr={IEEE FG},
+    abbr={IEEE FG '23},
    url={https://fg2023.ieee-biometrics.org/participate/doctoral-consortium},
     pdf={ravi_DC_FG2023.pdf}
 }

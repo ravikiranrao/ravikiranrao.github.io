@@ -1,6 +1,6 @@
 ---
 layout: cv
-permalink: /files/ravi_cv2.pdf
+permalink: /files/CV_academic.pdf
 title: CV
 description: Curriculum Vitae
 newtab: true
