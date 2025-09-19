@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-🎉 PhD graduated! 
+🎉 Ph.D. graduated! 
